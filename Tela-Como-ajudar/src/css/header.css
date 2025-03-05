@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+   
+}
+header{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       background-color: #B20000;
+       font-family: "Julius Sans One", serif;
+       font-weight: 100;
+       color: white;
+       height: 59px;
+}
+header h1{
+       font-size: 20px;
+       margin-right: 150px;
+       font-family: "Julius Sans One", serif;
+       font-weight: 100;
+       margin-left: -12px;
+}
+header ul{
+       list-style: none;
+       display: flex ;
+       justify-content: space-between;
+       gap: 50px;
+       font-family: "Julius Sans One", serif;
+}
+header .minilogo{
+       margin-top: 15px;
+      height: 60px;
+}
+header button{
+       border: none;
+       background-color: #fff;
+       color: #B20000;
+       font-weight: 600;
+       height: 29px;
+       width: 81px;
+       margin-left: 50px;
+       border-radius: 100px;
+}
+
+ 
+
