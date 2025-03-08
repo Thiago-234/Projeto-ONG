@@ -1,6 +1,6 @@
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: "Lato", serif;
    margin-top: 100px;
 }
