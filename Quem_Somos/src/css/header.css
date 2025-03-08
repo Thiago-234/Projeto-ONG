@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #B20000;
+    color: white;
+    height: 59px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 20px;
+    margin-right: 150px;
+    font-family: "Julius Sans One", serif;
+    font-weight: 400;
+    margin-left: -12px;
+
+}
+
+.logoo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-family: "Julius Sans One", serif;
+}
+
+header li,
+a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+header li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+header .minilogo {
+    margin-top: 15px;
+    height: 60px;
+    margin-left: 15px;
+
+}
+
+header button {
+    border: none;
+    background-color: #fff;
+    color: #B20000;
+    font-weight: 600;
+    height: 29px;
+    width: 81px;
+    border-radius: 100px;
+}
+
+.perfil {
+    margin-right: 20px;
+}
+
+.acimaDaDobra {
+    background-image: url(../img/campanha.png);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sombra {
+    height: 500px;
+    width: 100%;
+    background-color: #080809;
+    opacity: 40%;
+    position: absolute;
+}
+
+.quem {
+    position: absolute;
+    color: white;
+    top: 350px;
+    background: #b20000;
+    font-family: "Julius Sans One", serif;
+    padding: 10px;
+    font-size: 32px;
+}
+
+.conheca {
+    position: absolute;
+    top: 400px;
+    font-weight: 200;
+    color: white;
+    background: #b20000;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+}
