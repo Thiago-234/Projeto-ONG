@@ -54,9 +54,10 @@ footer{
     margin: 17px 0;
 }
 
-.direita img{
+.direita iframe{
     width: 700px;
-    margin-right: 20px;
+    margin-right: 70px;
+    
 }
 
 .zap{
