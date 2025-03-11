@@ -15,12 +15,12 @@
             <h1>VOLUNTARIOS PARA O BEM</h1>
         </div>
         <ul>
-            <li><a href="../Tela_Inicial/Inicio.html">Home</a></li>
-            <li>Eventos</li>
-            <li>Blog</li>
-            <li>Como Ajudar?</li>
+            <li><a href="../Front-ONG/Tela_Inicial/Inicio.html">Home</a></li>
+            <li><a href="../../Tela-eventos/index.html">Eventos</a></li>
+            <li><a href="../../Tela-Blog/blog.html">Blog</a></li>
+            <li><a href="../Quem_Somos/quemSomos.html">Quem Somos?</a></li>
         </ul>
-        <button>Doe agora</button>
+        <button onclick="window.location.href = '../Tela-Como-ajudar/index.html'">Doe agora</a></button>
         <img src="./src/img/perfil.png" class="perfil">
     </header>
 
@@ -100,12 +100,6 @@
                 <div style="top: 2596px;" class="bolinhas"></div>
             </div>
         </div>
-
-
-
-
-
-
         <div class="direita">
             <div class="comecou">
                 <h2>Onde começou</h3>
@@ -148,26 +142,26 @@
     <div class="containerDois">
 
         <div class="slides">
-            <button class="btnSelecao ativo"  onclick="abaSelecionada(event, 'missao')">MISSÃO</button>
-            <button class="btnSelecao"  onclick="abaSelecionada(event, 'visao')">VISÃO</button>
+            <button class="btnSelecao ativo" onclick="abaSelecionada(event, 'missao')">MISSÃO</button>
+            <button class="btnSelecao" onclick="abaSelecionada(event, 'visao')">VISÃO</button>
             <button class="btnSelecao" onclick="abaSelecionada(event, 'valores')">VALORES</button>
 
-         <div class="capas">
-            <div class="opcoes" id="missao" style="display: flex; ">
-                <h3>Cuidar da comunidade e do bairro</h3>
-                <img src="./src/img/comunidade 2.png">
-            </div>
+            <div class="capas">
+                <div class="opcoes" id="missao" style="display: flex; ">
+                    <h3>Cuidar da comunidade e do bairro</h3>
+                    <img src="./src/img/comunidade 2.png">
+                </div>
 
-            <div class="opcoes" id="visao">
-                <h3>Ver as pessoas felizes</h3>
-                <img src="./src/img/maya dia das crianças 1.png">
-            </div>
+                <div class="opcoes" id="visao">
+                    <h3>Ver as pessoas felizes</h3>
+                    <img src="./src/img/maya dia das crianças 1.png">
+                </div>
 
-            <div class="opcoes" id="valores">
-                <h3>Fazer tudo com carinho amor e respeito</h3>
-                <img src="./src/img/pessoas-valores.png">
+                <div class="opcoes" id="valores">
+                    <h3>Fazer tudo com carinho amor e respeito</h3>
+                    <img src="./src/img/pessoas-valores.png">
+                </div>
             </div>
-         </div>
 
 
         </div>
@@ -187,9 +181,12 @@
         <div class="linha"></div>
     </div>
     <div class="equipeTexto">
-       <div> <img src="./src/img/equipe.png"></div>
+        <div> <img src="./src/img/equipe.png"></div>
 
-      <div><p class="equipeNomes">Marco Aurélio de Freitas Silvestre é o criador e Presidente da ONG, junto com sua esposa Luciane Dabrins vice-presidente</p></div>
+        <div>
+            <p class="equipeNomes">Marco Aurélio de Freitas Silvestre é o criador e Presidente da ONG, junto com sua
+                esposa Luciane Dabrins vice-presidente</p>
+        </div>
 
     </div>
 
@@ -203,14 +200,14 @@
                 <img src="./src/img/minilogo.png" class="logooo">
                 <h1>Voluntários para o bem</h1>
             </div>
-    
-    
+
+
             <div class="fim">
-    
+
                 <h2>CONTATO</h2>
                 <p>+55 11 99904-3049</p>
                 <p>voluntariostorcendoprobem@gmail.com</p>
-    
+
                 <div class="fotos">
                     <a href="https://www.facebook.com/voluntariosprobem/" class="face">
                         <img src="./src/img/face.png"> </a>
@@ -218,24 +215,24 @@
                         <img src="./src/img/instagram.png"> </a>
                     <a href="https://chat.whatsapp.com/BqrdqCNVJuU7XXtrnEqvrq" class="zap">
                         <img src="./src/img/zap.png"> </a>
-                 
+
                 </div>
             </div>
         </div>
-    
+
         <div class="direitaFooter">
             <p>NOSSA LOCALIZAÇÃO</p>
             <img src="./src/img/mapa.png">
         </div>
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
     </footer>
-    
-  <script src="./src/containerDois.js"></script>
+
+    <script src="./src/containerDois.js"></script>
 </body>
 
 </html>

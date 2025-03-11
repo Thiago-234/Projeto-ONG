@@ -39,17 +39,14 @@ header ul {
     font-family: "Julius Sans One", serif;
 }
 
-header li,
-a {
+header li a{
     position: relative;
     text-decoration: none;
     color: white;
-    text-decoration: none;
 }
 
 header li:hover {
-    cursor: pointer;
-    text-decoration: underline;
+    scale: 1.1;
 }
 
 header .minilogo {

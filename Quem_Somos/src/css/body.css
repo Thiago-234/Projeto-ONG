@@ -322,7 +322,6 @@
 
 
 /* ContainerDois */
-
 .containerDois{
     height: 680px;
     overflow: hidden;
@@ -343,7 +342,7 @@
     font-family: "Nunito", sans-serif;
     font-size: 23px;
     font-weight: 600;
-    background-color: #FF0000;
+    background-color: #5e0000;
    
 }
 
@@ -363,9 +362,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
-  
-
 }
 
 .opcoes img{
@@ -439,11 +435,4 @@
     margin: 50px auto;
 }
 
-
-
 /* fim da Equipe */
-
-
-
-
-
