@@ -1,8 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
+       margin: 0;
+       padding: 0;
 }
-header{
+
+header {
        display: flex;
        align-items: center;
        justify-content: space-between;
@@ -12,25 +13,39 @@ header{
        color: white;
        height: 59px;
 }
-header h1{
+
+header h1 {
        font-size: 20px;
        margin-right: 150px;
        font-family: "Julius Sans One", serif;
        font-weight: 100;
        margin-left: -12px;
 }
-header ul{
+
+header ul {
        list-style: none;
-       display: flex ;
+       display: flex;
        justify-content: space-between;
-       gap: 50px;
+       gap: 27px;
        font-family: "Julius Sans One", serif;
 }
-header .minilogo{
-       margin-top: 15px;
-      height: 60px;
+
+header li a {
+       position: relative;
+       text-decoration: none;
+       color: white;
 }
-header button{
+
+header li:hover {
+       scale: 1.1;
+}
+
+header .minilogo {
+       margin-top: 15px;
+       height: 60px;
+}
+
+header button {
        border: none;
        background-color: #fff;
        color: #B20000;

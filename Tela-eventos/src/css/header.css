@@ -26,6 +26,15 @@ header ul{
        gap: 50px;
        font-family: "Julius Sans One", serif;
 }
+header li a{
+       position: relative;
+       text-decoration: none;
+       color: white;
+   }
+   
+   header li:hover {
+       scale: 1.1;
+   }
 header .minilogo{
        margin-top: 15px;
       height: 60px;

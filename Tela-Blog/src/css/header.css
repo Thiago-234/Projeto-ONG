@@ -33,21 +33,19 @@ header ul {
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    font-family: "Julius Sans One", serif;
-
+    
 }
 
-header li {
+header li a{
+    font-family: "Julius Sans One", serif;
     position: relative;
     text-decoration: none;
+    color: white;
 }
 
 header li:hover {
-    cursor: pointer;
-    text-decoration: underline;
+    scale: 1.1;
 }
-
-
 
 header .minilogo {
     margin-top: 15px;

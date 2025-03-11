@@ -1,8 +1,6 @@
 .container{
     display: flex;
-    justify-content: space-around;
-;
-   
+    justify-content: space-around;  
 }
 
 .quadrado{
@@ -110,7 +108,11 @@
    
 }
 
-.botao button{
+.botao a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     width: 310px;
     height: 58px;
     font-size: 24px;
@@ -118,7 +120,6 @@
     color: #B20000;
     border: #B20000 1px solid;
     font-weight: 600;
-    background-color: #fff;
     transition: background 0.4s ease-in-out;
 }
 
@@ -129,13 +130,7 @@
     margin: 50px auto;
 }
 
-.botao button:hover{
+ .botao a:hover {
   color: #fff;
   background-color: #B20000;
 }
-
-
-
-
-
-
